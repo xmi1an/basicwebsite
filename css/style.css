@@ -1,0 +1,14 @@
+h1 {
+    /* Make Beautiful */
+    color: black;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Courier;
+    background-color: rgb(50, 248, 155);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px dotted black;
+
+
+}
