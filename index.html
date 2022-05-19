@@ -16,7 +16,7 @@
         <h1 id="myh1">Student Details</h1>
 
         <table class="tablestyle" border="2" style="margin: auto;">
-            <thead class="head">
+            <thead class="tablehead">
                 <tr>
                     <th>Name</th>
                     <th>Mobile</th>
@@ -54,6 +54,17 @@
 
 
         </table>
+
+        <button id="myButton" onclick="showAlert()" class="btn">Click Me</button>
+
+        <script>
+            function showAlert() {
+                let num1 = prompt("Enter Value 1 :")
+                let num2 = prompt("Enter Value 2 :")
+                const sum = parseInt(num1) + parseInt(num2)
+                alert(sum);
+            }
+        </script>
 
     </div>
 

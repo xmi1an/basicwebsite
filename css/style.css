@@ -23,14 +23,14 @@ h1 {
     width: 15cm;
 }
 
-.head {
+.tablehead {
     font-size: large;
     font-weight: bold;
     font-family: 'Open Sans';
     background-color: rgb(50, 250, 150);
     text-align: center;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 1px solid black;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 80px;
@@ -41,10 +41,30 @@ h1 {
 tbody tr td {
     border-radius: 50px;
     border: black;
-    border: solid black;
+    border: 1px solid;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 80px;
     /* width: 20cm; */
 
+}
+
+.btn {
+    background-color: rgb(50, 250, 150);
+    border: 1px solid rgb(9, 185, 112);
+    border-radius: 8px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    width: 4cm;
+    margin: 50px;
+}
+
+.btn:hover {
+    background-color: rgb(164, 255, 202);
+    border: 1px solid white;
+    border-radius: 7px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Open Sans';
 }
