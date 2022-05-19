@@ -1,10 +1,8 @@
 body {
-    background-color: #f2f2f2;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
 }
 
 h1 {
-    /* Make Beautiful */
     color: black;
     font-size: 3em;
     font-weight: bold;
@@ -16,7 +14,8 @@ h1 {
     width: 20cm;
 }
 
-.tablestyle {
+/* Select With ID */
+#tablestyle {
     margin: auto;
     border-collapse: collapse;
     border-spacing: 0;
@@ -24,6 +23,7 @@ h1 {
     width: 15cm;
 }
 
+/* Select With Class */
 .tablehead {
     font-size: 1.2em;
     font-weight: bold;
@@ -38,13 +38,13 @@ h1 {
     width: 20cm;
 }
 
+/* Tag Name */
 tbody tr td {
     border: 1px solid rgb(146, 146, 146);
     border-radius: 50px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 80px;
-
 }
 
 img {
