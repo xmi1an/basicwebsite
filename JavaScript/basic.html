@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basics</title>
+</head>
+
+<body>
+
+    <h1>JavaScript Basics</h1> <!-- Title -->
+
+    <script>
+        // JavaScript Code
+        console.log("Hello World");
+        console.log("The date is " + new Date());
+
+        // Data types
+        var name = "Jignesh"; // String
+        var age = 30; // Number
+        var isMarried = false; // boolean
+        var rating = 4.5; // Float
+
+        console.log("Is " + name + " married? " + isMarried);
+
+        // Arrays
+        var names = ["John", "Jane", "Mary", "Mark"];
+        var numbers = [1, 2, 3, 4, 5];
+        var mixed = ["Hello", 2, "World", true];
+
+        // Functions
+        function sayHello() {
+            console.log("Hello World");
+        }
+
+        // sayHello();
+
+        // Objects
+        var person = {
+            firstName: "John",
+            lastName: "Doe",
+            age: 50,
+            isMarried: false,
+            sayHello: function () {
+                console.log("Hello World");
+            }
+        };
+
+        person.sayHello();
+
+        // Operators
+        var x = 10;
+        var y = 2;
+        console.log(x + y); // 12
+        console.log(x - y); // 8 Subtraction
+        console.log(x * y); // x * y = 20
+        console.log(x / y); // 5 Division returns a float
+        console.log(x % y); // 0 Modulus
+
+        console.log(x ** y); // 100 Exponentiation (x to the power of y)   ** is the same as Math.pow()
+        console.log(x++); // Pre-increment
+        console.log(x); // 11
+        console.log(y--); // Decrement before printing
+        console.log(y); // y is now 1
+
+        console.log(x == y); // Equality    == is the same as ===
+        console.log(x === y); // Equality    == is the same as ===
+
+        console.log(x != y); // Not equal
+        console.log(x > y); // Greater than 
+        console.log(x < y); // Less than
+        console.log(x >= y); // Greater than or equal to
+        console.log(x <= y); // Less than or equal to
+
+        // Logical Operators
+        var x = 10;
+        var y = 20;
+        console.log(x > y && y > x); // false
+        console.log(x > y || y > x); // true
+        console.log(!(x > y)); // true
+
+        // Assignment Operators
+        var x = 10;
+        x += 10; // x = x + 10
+        x -= 10; // x = x - 10
+        x *= 10; // x = x * 10
+        x /= 10; // x = x / 10
+        x %= 10; // x = x % 10
+        x **= 10; // x = x ** 10
+        x++; // x = x + 1
+
+        // String Operators
+        var x = "Hello";
+        var y = "World";
+        console.log(x + y); // HelloWorld
+        console.log(x + " " + y); // Hello World
+        console.log(x + " " + y + "!"); // Hello World!
+        console.log(x.length); // 5
+        console.log(x.toUpperCase()); // HELLO
+        console.log(x.toLowerCase()); // hello
+
+        // String Methods
+        var x = "Hello World";
+        console.log(x.indexOf("o")); // 4
+        console.log(x.indexOf("o", 5)); // 7
+
+
+        // Concatenation Operator
+        var x = "Hello";
+        var y = "World";
+        console.log(x + " " + y); // Hello World
+    </script>
+
+</body>
+
+</html>
