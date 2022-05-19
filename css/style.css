@@ -3,12 +3,48 @@ h1 {
     color: black;
     font-size: 3em;
     font-weight: bold;
-    font-family: Courier;
-    background-color: rgb(50, 248, 155);
+    font-family: 'Open Sans';
+    background-color: rgb(50, 250, 150);
     text-align: center;
-    padding: 10px;
     border-radius: 10px;
-    border: 2px dotted black;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 20cm;
+}
 
+.tablestyle {
+    border: 1px solid black;
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 15cm;
+}
+
+.head {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    background-color: rgb(50, 250, 150);
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 20cm;
+}
+
+/* tr tag */
+tbody tr td {
+    border-radius: 50px;
+    border: black;
+    border: solid black;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    /* width: 20cm; */
 
 }
