@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Change Backgroud Color</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Change Backgroud Color</h1>
+    <script>
+        function bgChange(bg) {
+            document.body.style.backgroundColor = bg;
+        }
+    </script>
+    <table style="width: 400px; height: 100px;">
+        <tr>
+            <td style="background-color: red;" onmouseover="bgChange(this.style.backgroundColor)"
+                onmouseout="bgChange('transparent')"></td>
+            <td style="background-color: yellow;" onmouseover="bgChange(this.style.backgroundColor)"
+                onmouseout="bgChange('transparent')"></td>
+            <td style="background-color: green;" onmouseover="bgChange(this.style.backgroundColor)"
+                onmouseout="bgChange('transparent')"></td>
+        </tr>
+    </table>
+</body>
+
+</html>

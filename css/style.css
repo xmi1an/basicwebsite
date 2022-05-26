@@ -3,13 +3,10 @@ body {
 }
 
 h1 {
-    color: black;
-    font-size: 3em;
-    font-weight: bold;
-    background-color: rgb(134, 255, 195);
-    text-align: center;
-    border-radius: 10px;
-    border: 2px solid rgb(50, 250, 150);
+    background-color: rgb(130, 255, 200);
+    border: 5px rgb(50, 250, 150) solid;
+    border-radius: 8px;
+    font-size: 40px;
     margin: 50px auto;
     width: 20cm;
 }
@@ -55,8 +52,9 @@ img {
 }
 
 img:hover {
-    transition: transform .1s;
-    zoom: 1;
+    /* transition: transform .3s; */
+    transition: .3s;
     transform: scale(1);
     transform: scale(1.5);
+
 }

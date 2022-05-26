@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calulate</title>
+</head>
+
+<body>
+    <script>
+        function sum() {
+            let val1 = document.getElementById("ip1").value;
+            let val2 = document.getElementById("ip2").value;
+            // console.log(val1);
+            // console.log(val2);
+
+            let sum = parseInt(val1) + parseInt(val2);
+            console.log(sum);
+
+            document.getElementById("result").innerHTML(sum);
+        }
+    </script>
+    <input id="ip1" type="text" placeholder="Value 1">
+    <input id="ip2" type="text" placeholder="Value 1">
+    <br>
+    <span id="result">Result : </span>
+    <br>
+    <button onclick="sum()">onclick</button>
+    <button onmouseover="sum()">onmouseover</button>
+
+</body>
+
+</html>

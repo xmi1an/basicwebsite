@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+    font-size: 18px;
+}
+
+p {
+    color: red;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: purple;
+    color: aliceblue;
+    font-size: 30px;
+}
